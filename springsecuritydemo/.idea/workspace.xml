@@ -44,17 +44,6 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager" selected="Spring Boot.SpringsecuritydemoApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringsecuritydemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springsecuritydemo" />
       <extension name="coverage">
@@ -97,7 +86,9 @@
       <workItem from="1644674059968" duration="19814000" />
       <workItem from="1644742344150" duration="2197000" />
       <workItem from="1644744619921" duration="5627000" />
-      <workItem from="1644763545583" duration="3360000" />
+      <workItem from="1644763545583" duration="3905000" />
+      <workItem from="1644934573200" duration="898000" />
+      <workItem from="1644935796234" duration="677000" />
     </task>
     <servers />
   </component>
