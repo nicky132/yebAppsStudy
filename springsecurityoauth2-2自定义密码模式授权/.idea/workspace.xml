@@ -36,16 +36,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,7 +82,19 @@
       <workItem from="1645247111545" duration="1026000" />
       <workItem from="1645256206086" duration="520000" />
       <workItem from="1645256743392" duration="1606000" />
-      <workItem from="1645258442236" duration="777000" />
+      <workItem from="1645258442236" duration="910000" />
+      <workItem from="1645259451841" duration="2253000" />
+      <workItem from="1645335009314" duration="831000" />
+      <workItem from="1645336047957" duration="7284000" />
+      <workItem from="1645712651333" duration="163000" />
+      <workItem from="1645712844739" duration="154000" />
+      <workItem from="1645713028325" duration="659000" />
+      <workItem from="1645714040410" duration="5022000" />
+      <workItem from="1645803529904" duration="420000" />
+      <workItem from="1645803974535" duration="297000" />
+      <workItem from="1645804294216" duration="2819000" />
+      <workItem from="1645809619003" duration="248000" />
+      <workItem from="1645809888064" duration="355000" />
     </task>
     <servers />
   </component>

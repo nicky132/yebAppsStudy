@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3283cc30-fe80-4742-94a6-c82400ed93c4" name="Default Changelist" comment="" />
+    <list default="true" id="4aa663ef-8b0c-49ba-89cb-d57a2ffa0585" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="259MUmXq5wYHUYI6k7pFwqGVo6w" />
+  <component name="ProjectId" id="25bmCPirQrXZxgmhyvPOlJJZFQ9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,19 +24,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,20 +50,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3283cc30-fe80-4742-94a6-c82400ed93c4" name="Default Changelist" comment="" />
-      <created>1644934868801</created>
+      <changelist id="4aa663ef-8b0c-49ba-89cb-d57a2ffa0585" name="Default Changelist" comment="" />
+      <created>1645804034100</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644934868801</updated>
-      <workItem from="1644934869893" duration="802000" />
-      <workItem from="1644935789859" duration="3652000" />
-      <workItem from="1644939472335" duration="206000" />
-      <workItem from="1644939686864" duration="763000" />
-      <workItem from="1645018825413" duration="839000" />
-      <workItem from="1645019978250" duration="1584000" />
-      <workItem from="1645193630597" duration="848000" />
-      <workItem from="1645195256471" duration="561000" />
-      <workItem from="1645196021041" duration="4315000" />
+      <updated>1645804034100</updated>
+      <workItem from="1645804035324" duration="236000" />
+      <workItem from="1645804290389" duration="3444000" />
     </task>
     <servers />
   </component>

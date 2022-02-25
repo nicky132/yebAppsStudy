@@ -2,6 +2,7 @@ package com.xxxx.springsecurityoauth2demo.config;
 
 import com.xxxx.springsecurityoauth2demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -22,7 +23,6 @@ public class AuthrizationServerConfig extends AuthorizationServerConfigurerAdapt
     private AuthenticationManager authenticationManager;
     @Autowired
     private UserService userService;
-
     /**
      * 使用密码模式所需配置
      * @param endpoints
@@ -33,7 +33,6 @@ public class AuthrizationServerConfig extends AuthorizationServerConfigurerAdapt
         endpoints.authenticationManager(authenticationManager)
                 .userDetailsService(userService);
     }
-
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
@@ -42,7 +41,6 @@ public class AuthrizationServerConfig extends AuthorizationServerConfigurerAdapt
                 //配置client-secret
                 .secret(passwordEncoder.encode("112233"))
 //                .accessTokenValiditySeconds(3600)
-                //成功后跳转url
                 .redirectUris("http://www.baidu.com")
                 //配置申请的权限范围
                 .scopes("all")
