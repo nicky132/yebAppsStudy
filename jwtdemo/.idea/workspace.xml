@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ff31aa9-0f01-4bb6-a9c1-49b2f3c345fe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="25d675VLQhvBxwJmqJSg78oW6r7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/xxxx/demo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/xxxx/demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JwtdemoApplicationTests.testParseTokenByClaims">
+    <configuration name="JwtdemoApplicationTests.testCreateTokenByClaims" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jjwtdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.jwtdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxxx.jwtdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.xxxx.jwtdemo.JwtdemoApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateTokenByClaims" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtdemoApplicationTests.testCreateTokenHasExp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jjwtdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.jwtdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxxx.jwtdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.xxxx.jwtdemo.JwtdemoApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateTokenHasExp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtdemoApplicationTests.testParseToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jjwtdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.jwtdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxxx.jwtdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.xxxx.jwtdemo.JwtdemoApplicationTests" />
+      <option name="METHOD_NAME" value="testParseToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtdemoApplicationTests.testParseTokenByClaims" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jjwtdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.jwtdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxxx.jwtdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.xxxx.jwtdemo.JwtdemoApplicationTests" />
+      <option name="METHOD_NAME" value="testParseTokenByClaims" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtdemoApplicationTests.testParseTokenHasExp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jjwtdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxxx.jwtdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxxx.jwtdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.xxxx.jwtdemo.JwtdemoApplicationTests" />
+      <option name="METHOD_NAME" value="testParseTokenHasExp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jjwtdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxxx.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JwtdemoApplicationTests.testParseTokenByClaims" />
+        <item itemvalue="JUnit.JwtdemoApplicationTests.testCreateTokenByClaims" />
+        <item itemvalue="JUnit.JwtdemoApplicationTests.testParseTokenHasExp" />
+        <item itemvalue="JUnit.JwtdemoApplicationTests.testCreateTokenHasExp" />
+        <item itemvalue="JUnit.JwtdemoApplicationTests.testParseToken" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ff31aa9-0f01-4bb6-a9c1-49b2f3c345fe" name="Default Changelist" comment="" />
+      <created>1645844447940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645844447940</updated>
+      <workItem from="1645844449065" duration="74000" />
+      <workItem from="1645844538472" duration="172000" />
+      <workItem from="1645844716340" duration="474000" />
+      <workItem from="1645845208787" duration="3440000" />
+      <workItem from="1645849041952" duration="570000" />
+      <workItem from="1645850440177" duration="1109000" />
+      <workItem from="1645853167208" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

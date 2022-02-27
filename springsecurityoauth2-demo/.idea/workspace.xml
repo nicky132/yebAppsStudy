@@ -40,17 +40,6 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Springsecurityoauth2DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springsecurityoauth2-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxxx.springsecurityoauth2demo.Springsecurityoauth2DemoApplication" />
@@ -96,7 +85,18 @@
       <workItem from="1645809619003" duration="248000" />
       <workItem from="1645809888064" duration="543000" />
       <workItem from="1645810453124" duration="455000" />
-      <workItem from="1645810931029" duration="335000" />
+      <workItem from="1645810931029" duration="1843000" />
+      <workItem from="1645842500613" duration="431000" />
+      <workItem from="1645848087647" duration="921000" />
+      <workItem from="1645849039220" duration="1283000" />
+      <workItem from="1645850437556" duration="2533000" />
+      <workItem from="1645853165092" duration="2363000" />
+      <workItem from="1645855755908" duration="563000" />
+      <workItem from="1645856589228" duration="1810000" />
+      <workItem from="1645859710673" duration="953000" />
+      <workItem from="1645860986345" duration="2356000" />
+      <workItem from="1645863785502" duration="331000" />
+      <workItem from="1645864142430" duration="249000" />
     </task>
     <servers />
   </component>
