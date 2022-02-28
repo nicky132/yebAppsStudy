@@ -25,7 +25,7 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.xxxx.server.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.xxx.server.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .securityContexts(securityContexts())
