@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yeb-generator:war">
+    <output-path>$PROJECT_DIR$/yeb-generator/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>yeb-generator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yeb-generator-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="yeb-generator:war exploded" />
+    </root>
+  </artifact>
+</component>
