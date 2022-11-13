@@ -8,10 +8,7 @@ import com.xxxx.server.service.IAdminService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
@@ -28,26 +25,23 @@ public class LoginController {
     @Autowired
     private IAdminService adminService;
     @ApiOperation(value = "登录之后返回token")
+    @CrossOrigin(origins = "http://47.114.150.30",maxAge = 3600)
     @PostMapping("/login")
     public RespBean login(@RequestBody AdminLoginParam adminLoginParam, HttpServletRequest request){
        return adminService.login(adminLoginParam.getUsername(),adminLoginParam.getPassword(),request);
     }
 
     @ApiOperation(value="获取当前用户的信息")
+    @CrossOrigin(origins = "http://47.114.150.30",maxAge = 3600)
     @GetMapping("/admin/info")
-    public Admin getAdminInfo(Principal principal){
-        if(null == principal){
-            return null;
-        }
-        String username = principal.getName();
-        Admin admin = adminService.getAdminByUserName(username);
-        admin.setPassword(null);
-        return admin;
+    public RespBean getAdmin(Principal principal){
+        return adminService.getAdmin(principal);
     }
 
     @ApiOperation(value="退出登录")
+    @CrossOrigin(origins = "http://47.114.150.30",maxAge = 3600)
     @PostMapping("/logout")
     public RespBean logout(){
-        return RespBean.success("注销成功！");
+        return RespBean.success(true,"注销成功！");
     }
 }

@@ -14,16 +14,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class RespBean {
     private long code;
+    private Boolean success;
     private String message;
     private Object obj;
-
     /**
      * 成功返回结果
      * @param message
      * @return
      */
-    public static RespBean success(String message){
-        return new RespBean(200,message,null);
+    public static RespBean success(Boolean success,String message){
+        return new RespBean(200,success,message,null);
     }
 
     /**
@@ -31,8 +31,8 @@ public class RespBean {
      * @param message
      * @return
      */
-    public static RespBean success(String message,Object obj){
-        return new RespBean(200,message,obj);
+    public static RespBean success(Boolean success,String message,Object obj){
+        return new RespBean(200,success,message,obj);
     }
 
     /**
@@ -40,8 +40,8 @@ public class RespBean {
      * @param message
      * @return
      */
-    public static RespBean error(String message){
-        return new RespBean(500,message,null);
+    public static RespBean error(Boolean success,String message){
+        return new RespBean(500,success,message,null);
     }
 
     /**
@@ -49,7 +49,7 @@ public class RespBean {
      * @param message
      * @return
      */
-    public static RespBean error(String message,Object obj){
-        return new RespBean(500,message,obj);
+    public static RespBean error(Boolean success,String message,Object obj){
+        return new RespBean(500,success,message,obj);
     }
 }

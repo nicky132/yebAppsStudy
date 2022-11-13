@@ -43,7 +43,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 "/doc.html",
                 "/webjars/**",
                 "/swagger-resources/**",
-                "/v2/api-docs/**"
+                "/v2/api-docs/**",
+                "/ws/**"
         );
     }
 
@@ -57,6 +58,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
+                .antMatchers("/","/login").permitAll()//toLogin放行：不需要拦截，可以随便访问
+                .antMatchers("index.html","/static/**").permitAll() //放行静态资源
 //                //允许登录访问
 //                .antMatchers("/login","/logout")
 //                .permitAll()
@@ -67,6 +70,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 //禁用缓存
                 .headers()
                 .cacheControl();
+
         //添加jwt 登录授权拦截器
         http.addFilterBefore(jwtAuthencationTokenFilter(), UsernamePasswordAuthenticationFilter.class);
         //除了拦截器，还可以添加自定义未登录、未授权结果返回

@@ -18,6 +18,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
+import java.security.Principal;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,6 +42,7 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     private JwtTokenUtil jwtTokenUtil;
     @Value("${jwt.tokenHead}")
     private String tokenHead;
+
     /**
      * 登录之后返回token
      * @param username
@@ -53,10 +55,10 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
         //登录
         UserDetails userDetails = userDetailsService.loadUserByUsername(username);
         if(null == userDetails || !passwordEncoder.matches(password,userDetails.getPassword())){
-           return RespBean.error("用户名或密码不正确");
+           return RespBean.error(false,"用户名或密码不正确");
         }
         if(!userDetails.isEnabled()){
-            return RespBean.error("账号被禁用，请联系管理员！");
+            return RespBean.error(false,"账号被禁用，请联系管理员！");
         }
         //更新security登录用户对象
         UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userDetails,null,userDetails.getAuthorities());
@@ -67,7 +69,7 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
         Map<String,String> tokenMap = new HashMap<>();
         tokenMap.put("token",token);
         tokenMap.put("tokenHead",tokenHead);
-        return RespBean.success("登录成功",tokenMap);
+        return RespBean.success(true,"登录成功",tokenMap);
     }
 
     /**
@@ -78,6 +80,22 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     @Override
     public Admin getAdminByUserName(String username) {
         //去查数据库表，查用户被启用，且没被禁用
-        return adminMapper.selectOne(new QueryWrapper<Admin>().eq("username",username).eq("enable",true));
+        return adminMapper.selectOne(new QueryWrapper<Admin>().eq("username",username).eq("enabled",true));
+    }
+
+    /**
+     * 根据用户名获取
+     * @param principal
+     * @return
+     */
+    @Override
+    public RespBean getAdmin(Principal principal) {
+        if(null == principal){
+            return null;
+        }
+        String username = principal.getName();
+        Admin admin = getAdminByUserName(username);
+        admin.setPassword(null);
+        return RespBean.success(true,"获取成功",admin);
     }
 }

@@ -64,5 +64,16 @@
 			<artifactId>jjwt</artifactId>
 			<version>0.9.0</version>
 		</dependency>
+        <!--FastDFS依赖-->
+		<dependency>
+			<groupId>cn.bestwu</groupId>
+			<artifactId>fastdfs-client-java</artifactId>
+			<version>1.27</version>
+		</dependency>
+		<!-- websocket 依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
 	</dependencies>
 </project>
